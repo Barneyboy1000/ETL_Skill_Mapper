@@ -1,0 +1,214 @@
+{
+    "keyword": "Software Engineer",
+    "start": 1,
+    "end": 20,
+    "total": 382,
+    "link": [
+        {
+            "href": "https://services.onetcenter.org/ws/online/search?keyword=Software%20Engineer&start=21&end=40",
+            "rel": "next"
+        }
+    ],
+    "occupation": [
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1252.00/",
+            "relevance_score": 100,
+            "code": "15-1252.00",
+            "title": "Software Developers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1299.08/",
+            "relevance_score": 97,
+            "code": "15-1299.08",
+            "title": "Computer Systems Engineers/Architects",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/17-2011.00/",
+            "relevance_score": 97,
+            "code": "17-2011.00",
+            "title": "Aerospace Engineers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1211.00/",
+            "relevance_score": 97,
+            "code": "15-1211.00",
+            "title": "Computer Systems Analysts",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1244.00/",
+            "relevance_score": 97,
+            "code": "15-1244.00",
+            "title": "Network and Computer Systems Administrators",
+            "tags": {
+                "bright_outlook": false,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/17-2071.00/",
+            "relevance_score": 97,
+            "code": "17-2071.00",
+            "title": "Electrical Engineers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/17-2072.00/",
+            "relevance_score": 96,
+            "code": "17-2072.00",
+            "title": "Electronics Engineers, Except Computer",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1251.00/",
+            "relevance_score": 96,
+            "code": "15-1251.00",
+            "title": "Computer Programmers",
+            "tags": {
+                "bright_outlook": false,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1221.00/",
+            "relevance_score": 96,
+            "code": "15-1221.00",
+            "title": "Computer and Information Research Scientists",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/17-2061.00/",
+            "relevance_score": 96,
+            "code": "17-2061.00",
+            "title": "Computer Hardware Engineers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1254.00/",
+            "relevance_score": 95,
+            "code": "15-1254.00",
+            "title": "Web Developers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/17-2072.01/",
+            "relevance_score": 95,
+            "code": "17-2072.01",
+            "title": "Radio Frequency Identification Device Specialists",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/51-9162.00/",
+            "relevance_score": 94,
+            "code": "51-9162.00",
+            "title": "Computer Numerically Controlled Tool Programmers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1253.00/",
+            "relevance_score": 81,
+            "code": "15-1253.00",
+            "title": "Software Quality Assurance Analysts and Testers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/17-2031.00/",
+            "relevance_score": 65,
+            "code": "17-2031.00",
+            "title": "Bioengineers and Biomedical Engineers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1232.00/",
+            "relevance_score": 63,
+            "code": "15-1232.00",
+            "title": "Computer User Support Specialists",
+            "tags": {
+                "bright_outlook": false,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/17-2141.02/",
+            "relevance_score": 62,
+            "code": "17-2141.02",
+            "title": "Automotive Engineers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1255.00/",
+            "relevance_score": 57,
+            "code": "15-1255.00",
+            "title": "Web and Digital Interface Designers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1299.07/",
+            "relevance_score": 57,
+            "code": "15-1299.07",
+            "title": "Blockchain Engineers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        },
+        {
+            "href": "https://services.onetcenter.org/ws/online/occupations/15-1299.05/",
+            "relevance_score": 56,
+            "code": "15-1299.05",
+            "title": "Information Security Engineers",
+            "tags": {
+                "bright_outlook": true,
+                "green": false
+            }
+        }
+    ]
+}
