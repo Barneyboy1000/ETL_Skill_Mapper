@@ -6,7 +6,6 @@ import json
 from typing import Any
 
 from dotenv import load_dotenv
-load_dotenv()
 
 class ETLPipeline:
     def extract(self) -> Any:
@@ -35,8 +34,12 @@ class ETLPipeline:
         if response.status_code == 200:
             response_data = response.json()
             if response_data:
-                with open("output.json", "w") as f:
-                    json.dump(response_data, f, indent=4)
+                relevent_occupations = ExtractOccupation(response_data, 
+                                                         username=username, 
+                                                         password=password, 
+                                                         headers=headers,)
+                with open('output.json', 'w') as f:
+                    json.dump(relevent_occupations, f, indent=4)
             else:
                 print("Error:", response.status_code, response.text)
                 return None
@@ -70,7 +73,26 @@ class ETLPipeline:
         data = self.transform(data)
         self.load(data)
 
+def ExtractOccupation(response_data, username, password, headers):
+    # TODO: Implement logic to extract each occupation
+    occupations_list = []
+    
+    for each_occupations in response_data["occupation"]:
+        print(f"Requesting: {each_occupations['href']} for occupation: {each_occupations['title']}")
+        this_occupation_response = requests.get(            
+            each_occupations["href"],
+            auth=HTTPBasicAuth(username, password),
+            headers=headers
+        )
+        if this_occupation_response.status_code == 200:
+            occupation_data = this_occupation_response.json()
+            occupations_list.append(occupation_data)
+        else:            
+            print(f"Error fetching occupation {each_occupations['title']}: {this_occupation_response.status_code} - {this_occupation_response.text}")
+
+    return occupations_list  # Return the list of occupations or process as needed
 
 if __name__ == "__main__":
+    load_dotenv()  # Load environment variables from .env file
     etl = ETLPipeline()
     etl.run()
